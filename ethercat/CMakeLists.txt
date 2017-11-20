@@ -86,4 +86,4 @@ include_directories(${SOEM_DIR}/oshw/linux)
 
 add_executable(${BINARY} ${SOURCES})
 add_dependencies(${BINARY} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-target_link_libraries(${BINARY} soem ${catkin_LIBRAgit adRIES})
+target_link_libraries(${BINARY} soem ${catkin_LIBRARIES})
