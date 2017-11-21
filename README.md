@@ -15,6 +15,7 @@ git submodule update --init --remote
 
 Return to the workspace root and build
 ```bash
+cd ~/catkin_ws
 catkin_make
 ```
 
